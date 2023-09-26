@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+body {
+    color: #076799 !important;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-link {
+    color: #076799 !important;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    text-decoration-color: #002C64 !important;
+    text-underline-offset: 0.2em;
+    text-decoration-thickness: 4px;
+}
+
+img {
+    pointer-events: none;
+}
+
+.banner, .position, .vision {
+    background: #002C64 !important;
+    color: #FFF !important;
+}
+
+.banner, .bio {
+    margin-block-start: 4em !important;
+}
+
+.banner {
+    opacity: 0.9;
+    font-weight: 600;
+}
+
+.vision {
+    width: 50%;
+}
+
+.position {
+    background: #002C64;
+}
+
+.card-image {
+    border-radius: 50%;
+    margin: 0 auto;
+    padding: 0.5em;
+}
+
+.section.db, div > input, div > select, div > textarea {
+    background: #111111 !important;
+}
+
+.contact_form {
+    background: #000 !important;
+    box-shadow: 0 5px 14px rgba(0, 0, 0, 0.1);
+    padding: 40px 30px;
+}
+
+.sr-only {
+    color: #bcbcbc;
+}
+
+.contact_form .form-control {
+    margin-bottom: 30px;
+    border: 1px solid #ebebeb;
+    box-sizing: border-box;
+    color: #bcbcbc;
+    font-size: 16px;
+    outline: 0 none;
+    padding: 10px 25px;
+    height: 55px;
+    resize: none;
+    box-shadow: none !important;
+    width: 100%;
+}
+
+.contact_form textarea {
+    color: #bcbcbc;
+    padding: 20px 25px !important;
+    height: 160px !important;
+}
+
+.contact_form .form-control::-webkit-input-placeholder {
+    color: #bcbcbc;
+}
+
+.contact_form .form-control::-moz-placeholder {
+    opacity: 1;
+    color: #bcbcbc;
+}
+
+.contact_form .form-control::-ms-input-placeholder {
+    color: #bcbcbc;
+}
+
+.section-title {
+    display: block;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.section-title p {
+    color: #999;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    margin: 0;
+}
+
+.section-title h3 {
+    font-size: 42px;
+    font-weight: 300;
+    line-height: 62px;
+    margin: 0 0 25px;
+    padding: 0;
+    text-transform: none;
+}
+
+.section.colorsection p, .section.colorsection h3, .section.db h3 {
+    color: #ffffff;
+}
+
+footer {
+    background: #010101;
+    color: #666;
+}
+
+h6 a {
+    color: #222;
+    text-decoration: none;
+}
+
+h6 a:hover {
+    color: #F44336;
+}
+
+@media screen and (max-width: 768px) {
+    .banner-img {
+        display: none;
+    }
+
+    .card-image {
+        width: 55px;
+    }
+
+    .positions {
+        flex-direction: column;
+    }
+
+    .position {
+        margin: 0 auto;
+        width: 80% !important;
+    }
+
+    .bio {
+        width: 100% !important;
+    }
+}
