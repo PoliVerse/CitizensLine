@@ -11,8 +11,8 @@ body {
 
 .nav-link:hover {
     text-decoration: underline;
-    text-decoration-color: #002C64 !important;
-    text-underline-offset: 0.2em;
+    text-decoration-color: #026499 !important;
+    text-underline-offset: 0.5em;
     text-decoration-thickness: 4px;
 }
 
