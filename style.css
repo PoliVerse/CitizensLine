@@ -18,7 +18,6 @@ img {
     background-color: rgba(255, 255, 255, 0.9);
     top: 0;
     left: 0;
-    opacity: 0.5s ease;
     position: fixed;
     z-index: 9999;
 }
@@ -169,7 +168,7 @@ h6 a:hover {
 }
 
 @keyframes spin {
-    0% { transform: rotatet(0deg); }
+    0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
 
